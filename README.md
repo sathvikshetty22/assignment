@@ -49,7 +49,7 @@ There are N frustrated coders standing in a circle with a gun in their hands. Ea
 <h5> Input Format:</h5>
 The first line contains N the no. of coders The next line contains N elements where the ith element is theS[ i ] of ith coder.
 
- <h5>Output Format:/<h5>
+ <h5>Output Format:</h5>
 Print a single line containing the minimum sum.
 
 <h5> Constraints:</h5>
