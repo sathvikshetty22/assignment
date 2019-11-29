@@ -98,17 +98,17 @@ Zolo is stuck in a traffic due to dysfunctional traffic light. Zolo is a profess
 
 Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1)  by increasing their state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the minimum time to do the process as Zolo is getting late for work.
 
-<h3>INPUT:</h3>
+<h5>INPUT:</h5>
 
 The first line contains N K
 
 The second line describes the current status of each bulb as an array whose each element can either be G or Y or R
 
-<h3>OUTPUT:</h3>
+<h5>OUTPUT:</h5>
 
 print the minimum amount of time required to clear the traffic jam.
 
-<h3>CONSTRAINTS</h3>
+<h5>CONSTRAINTS</h5>
 
 1<=N, K<=100000
 <h5>Sample Input:</h5>
@@ -118,7 +118,7 @@ R Y G Y
 5
 
 
-<h5>6. Remove Friends</h5>
+<h3>6. Remove Friends</h3>
 After getting her PhD, Christie has become a celebrity at her university, and her facebook profile is full of friend requests. Being the nice girl she is, Christie has accepted all the requests.
 
 Now Kuldeep is jealous of all the attention she is getting from other guys, so he asks her to delete some of the guys from her friend list.
@@ -135,19 +135,19 @@ Algorithm Delete(Friend):
     if(DeleteFriend == false)
         delete the last friend
 
-<h3>Input:</h3>
+<h5>Input:</h5>
 First line contains T number of test cases. First line of each test case contains N, the number of friends Christie currently has and K ,the number of friends Christie decides to delete. Next lines contains popularity of her friends separated by space.
 
-<h3>Output:</h3>
+<h5>Output:</h5>
 For each test case print N-K numbers which represent popularity of Christie friend's after deleting K friends.
 
-<h3>Constraints</h3>
+<h5>Constraints</h5>
 1<=T<=1000
 1<=N<=100000
 0<=K< N
 0<=popularity_of_friend<=100
 
-<h2>NOTE:</h2>
+<h6>NOTE:</h6>
 Order of friends after deleting exactly K friends should be maintained as given in input.
 <h5>Sample Input:</h5>
 3
@@ -162,20 +162,20 @@ Order of friends after deleting exactly K friends should be maintained as given 
 19 12 17 
 77 18 
 
-<h5>7. Largest cycle in a tree</h5>
+<h3>7. Largest cycle in a tree</h3>
 You are given a tree of N nodes and N-1 edges. Now you need to select two nodes a
 and b in the tree such that the cycle that will be formed after adding an edge between
 the two nodes a and b, its length should be maximum. If there are more than one
 possible answer, you can output any of them.
-<h3>Input Format</h3>
+<h5>Input Format</h5>
 The first line contains an integer as N input. Next N-1 lines contain a pair of integers
 (a, b) that denote there is an edge between the two nodes a and b in the tree.
-<h3>Output Format</h3>
+<h5>Output Format</h5>
 In the output, you need to print two integers separated by space which denote the
 nodes between which you can add the edge so as to maximize the length of the cycle
 in the tree.
 
-<h3>Constraints</h3>
+<h5>Constraints</h5>
 1<=n<=10^5
 <h5>Sample Input:</h5>
 7
@@ -188,7 +188,7 @@ in the tree.
 <h5>Output Format</h5>
 4 6
 
-<h5>8. Monk watching fight</h5>
+<h3>8. Monk watching fight</h3>
  Once Monk was watching a fight between an array and a tree, of being better. Tree
 got frustrated and converted that array into a Binary Search Tree by inserting the
 elements as nodes in BST, processing elements in the given order in the array. Now
@@ -199,13 +199,13 @@ Note:
 or equal to the parent node; the right sub-tree contains only nodes with values
 greater than the parent node.
 2) Binary Search Tree with one node, has height equal to 1.
-<h3>Input Format</h3>
+<h5>Input Format</h5>
 The first line will consist of 1 integer N, denoting the number of elements in the array.
 In next line, there will be N space separated integers, A[i], where 1 ≤ I ≤ N, denoting
 the elements of array.
-<h3>Output Format</h3>
+<h5>Output Format</h5>
 Print the height of the created Binary Search Tree.
-<h3>Constraints</h3>
+<h5>Constraints</h5>
 1≤N≤103
 1≤A[i]≤106
 <h5>Sample Input:</h5>
@@ -214,7 +214,7 @@ Print the height of the created Binary Search Tree.
 <h5>Output Format</h5>
 3
 
-<h5>9. Yatin plays PUBG</h5>
+<h3>9. Yatin plays PUBG</h3>
 Yatin is playing PUBG and he has reached a place with a large staircase in front of him.
 And there is an enemy at each landing of the staircase.
 The staircase is analogous to a binary tree with each of its nodes as a landing of the
@@ -230,14 +230,14 @@ a binary search tree.
 [ Note: Players do not change their position after one player has died, i.e. the leftmost
 node remains the same even after player on that node has died. Or we can say that
 the nodes are not removed after the player on that node has died.]
-<h3>Input Format</h3>
+<h5>Input Format</h5>
 The first line of input contains a number t denoting the number of test cases.
 The first line of each test case contains n, the number of nodes in the tree.
 The second line of each test case contains n space separated integers (unique) ai
 denoting the value at each node of the BST.
-<h3>Output</h3>
+<h5>Output</h5>
 Print the answer for each test case on a new line.
-<h3>Constraints</h3>
+<h5>Constraints</h5>
 1 <= t <= 20
 1 <= n <= 1000
 1 <= ai <= 1000000000
@@ -248,7 +248,7 @@ Print the answer for each test case on a new line.
 <h5>Output Format</h5>
 4
 
-<h5>10. Haunted</h5>
+<h3>10. Haunted</h3>
 The king of ghosts is really disappointed when he sees that all the human beings on
 Planet Earth have stopped fearing the ghost race. He knows the reason for this. The
 existing ghost race has become really lazy and has stopped visiting Planet Earth to
@@ -272,15 +272,15 @@ the competition.
 You will be given the age of the ghost who won the "Ghost of the Day" title on each
 day of the competition. Your job is to find out the age of the ghost who was awarded
 with the "Consistency Trophy" on each day of the competition.
-<h3>Input Format</h3>
+<h5>Input Format</h5>
 The first line consists of 2 space separated integers N and M. The next line consists of
 N space separated integers such that the ith integer denotes the age of the ghost who
 was awarded with the "Ghost of the Day" title on the ith day of the competition.
-<h3>Output Format</h3>
+<h5>Output Format</h5>
 Print N lines. The ith line should contain 2 space separated integers such that the first
 integer denotes the age of the ghost who was awarded with the "Consistency Trophy" on the ith day and the second integer denotes the number of "Ghost of the Day" titles won by this ghost until the end of the ith day of the competition.
 
-<h3>Constraints</h3>
+<h5>Constraints</h5>
 1 ≤ N ≤ 105
 1 ≤ M ≤ 109
 <h5>Sample Input:</h5>
